@@ -1,0 +1,32 @@
+COMANDOS DE GIT
+
+dentro de la carpeta donde queremos iniciar git :
+
+Boton derecho => Git Bash Here => git init
+
+git status : Visualisar el estado de los archivos
+
+git add index.html ( o el nombre del archivo ) : pasar a puesta a punto los archivos modificados
+
+git diff : ver las modificaciones
+
+git commit -m "Comentario de lo modificado" : Agregar al repositorio local los cambios realizados
+
+git log : Visualizar el historial de cambios
+
+git checkout -- . : Regresar todos los archivos
+
+git checkout -- index.html : Regresar un archivo en particular
+
+git push -u origin main : subir a github
+
+git clone "https://github.com/Bratt-ec/TiendaBasica-PHP.git" : descargar repositorio
+
+
+GITHUB
+
+git remote add origin https://github.com/npallares/nombreProyecto.git
+git branch -M main
+git push -u origin main
+
+ 
